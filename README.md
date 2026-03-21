@@ -79,8 +79,11 @@ print(oracle)          # ShorOracle(a=7, N=15; n=4, qubits=11)
 oracle.qc.draw("mpl")  # Draw the base C-U_a circuit. Deeper levels can be drawn as shown in the notebook
 ```
 
-## References
-- Beauregard, S. "Circuit for Shor's algorithm using 2n+3 qubits", *Quantum Information & Computation*, 3(2), 175-185, 2003. [[arXiv:quant-ph/0205095]](https://arxiv.org/abs/quant-ph/0205095)
+## Relevant Papers
+- Beauregard, S. "Circuit for Shor's algorithm using 2n+3 qubits", *Quantum Information & Computation*, 3(2), 175-185 (2003). [[arXiv:quant-ph/0205095]](https://arxiv.org/abs/quant-ph/0205095)
+- P. W. Shor, "Algorithms for quantum computation: discrete logarithms and factoring," Proceedings 35th Annual Symposium on Foundations of Computer Science, 124-134 (1994). [[doi: 10.1109/SFCS.1994.365700]](https://ieeexplore.ieee.org/document/365700)
+
+## Links
 - [Qiskit Documentation](https://docs.quantum.ibm.com/)
 
 ## License
